@@ -1,0 +1,22 @@
+{
+    "name": "taitech/azampay",
+    "description": "A package library for integrating your composer/php-based project with AzamPay",
+    "type": "library",
+    "require": {
+        "php": "^8.1",
+        "guzzlehttp/guzzle": "^7.5"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Taitech\\Azampay\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Aman Simon Tairo",
+            "email": "tairocruise@yahoo.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
