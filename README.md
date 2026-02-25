@@ -6,7 +6,7 @@
   <img src="https://img.shields.io/badge/Laravel-10.0-ff2d20?style=for-the-badge&logo=laravel&logoColor=white" alt="Laravel Badge">
 </div>
 
-# **Wense inventories**
+# **Zenith**
 
 ## **🚀Running the Project**
 

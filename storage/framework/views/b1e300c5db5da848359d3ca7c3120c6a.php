@@ -1069,7 +1069,7 @@
           <div class="contact-detail-icon">📞</div>
           <div>
             <div class="contact-detail-label">Call Us</div>
-            <div class="contact-detail-val">+255 676 605 605</div>
+            <div class="contact-detail-val">+255 672 109 591</div>
           </div>
         </div>
         <div class="contact-detail">
@@ -1095,28 +1095,28 @@
 
       <div class="contact-form-wrap fade-in">
         <h3 style="font-size: 1.25rem; font-weight: 800; color: var(--ink); margin-bottom: 24px; letter-spacing: -0.02em;">Request Your Demo</h3>
-        <form onsubmit="handleSubmit(event)">
+        <form action="https://formspree.io/f/xwpeewgw" method="POST" onsubmit="handleSubmit(event)">
           <div class="form-row">
             <div class="form-group">
               <label class="form-label">First Name</label>
-              <input class="form-input" type="text" placeholder="Jane" required>
+              <input class="form-input" type="text" name="first_name" placeholder="Jane" required>
             </div>
             <div class="form-group">
               <label class="form-label">Last Name</label>
-              <input class="form-input" type="text" placeholder="Smith" required>
+              <input class="form-input" type="text" name="last_name" placeholder="Smith" required>
             </div>
           </div>
           <div class="form-group">
             <label class="form-label">Work Email</label>
-            <input class="form-input" type="email" placeholder="jane@company.com" required>
+            <input class="form-input" type="email" name="email" placeholder="jane@company.com" required>
           </div>
           <div class="form-group">
             <label class="form-label">Company Name</label>
-            <input class="form-input" type="text" placeholder="Acme Corp" required>
+            <input class="form-input" type="text" name="company_name" placeholder="Acme Corp" required>
           </div>
           <div class="form-group">
             <label class="form-label">Company Size</label>
-            <select class="form-select">
+            <select class="form-select" name="company_size">
               <option value="">Select team size...</option>
               <option>1–10 employees</option>
               <option>11–50 employees</option>
@@ -1126,7 +1126,7 @@
           </div>
           <div class="form-group">
             <label class="form-label">Tell us about your needs</label>
-            <textarea class="form-textarea" placeholder="What inventory challenges are you solving?"></textarea>
+            <textarea class="form-textarea" name="message" placeholder="What inventory challenges are you solving?"></textarea>
           </div>
           <button type="submit" class="submit-btn" id="submit-btn">Book My Demo →</button>
         </form>

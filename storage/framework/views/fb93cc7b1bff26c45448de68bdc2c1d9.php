@@ -1,5 +1,5 @@
 <title>Terms of service</title>
-<link href="{{ asset('logo.png') }}" rel="icon" />
+<link href="<?php echo e(asset('logo.png')); ?>" rel="icon" />
 <!-- CSS files -->
 <link href="./dist/css/tabler.min.css?1692870487" rel="stylesheet"/>
     <link href="./dist/css/tabler-flags.min.css?1692870487" rel="stylesheet"/>
@@ -113,3 +113,4 @@
           </div>
         </div>
       </div>
+<?php /**PATH C:\rstoresV1R\zenith\resources\views/terms&policy/index.blade.php ENDPATH**/ ?>
