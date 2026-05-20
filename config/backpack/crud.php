@@ -476,5 +476,12 @@ return [
     ],
 
     'file_name_generator' => \Backpack\CRUD\app\Library\Uploaders\Support\FileNameGenerator::class,
+   // Ensure these settings are correct
+   'operations' => [
+    'list' => [
+        'contentClass' => 'col-md-12',
+        'dataSource' => null,
+    ],
+],
 
 ];

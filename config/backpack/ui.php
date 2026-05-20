@@ -18,8 +18,8 @@ return [
     // and choosing that view_namespace instead of the default one. Backpack will load a file from there
     // if it exists, otherwise it will load it from the fallback namespace.
 
-    'view_namespace' => 'backpack.theme-coreuiv2::',
-    'view_namespace_fallback' => 'backpack.theme-coreuiv2::',
+    'view_namespace' => 'backpack.theme-tabler::',
+    'view_namespace_fallback' => 'backpack.theme-tabler::',
 
     /*
     |--------------------------------------------------------------------------
@@ -46,7 +46,7 @@ return [
     // ----
 
     // Project name - shown in the window title
-    'project_name' => 'Backpack Admin Panel',
+    'project_name' => 'RS',
 
     // Content of the HTML meta robots tag to prevent indexing and link following
     'meta_robots_content' => 'noindex, nofollow',
@@ -63,7 +63,7 @@ return [
     'home_link' => '',
 
     // Menu logo. You can replace this with an <img> tag if you have a logo.
-    'project_logo' => '<b>Back</b>pack',
+    'project_logo' => '<b>RS</b>Panel',
 
     // Show / hide breadcrumbs on admin panel pages.
     'breadcrumbs' => true,
@@ -73,20 +73,32 @@ return [
     // ------
 
     // Developer or company name. Shown in footer.
-    'developer_name' => 'Cristian Tabacitu',
+    'developer_name' => 'welasonnelson-opensource',
 
     // Developer website. Link in footer. Type false if you want to hide it.
-    'developer_link' => 'http://tabacitu.ro',
+    'developer_link' => 'https://github.com/Nelson-143',
 
     // Show powered by Laravel Backpack in the footer? true/false
-    'show_powered_by' => true,
+    'show_powered_by' => false,
 
     // ---------
     // DASHBOARD
     // ---------
+    'dashboard' => [
+    // Enable or disable the dashboard
+    'enabled' => true,
 
+    // Use custom view for dashboard
+    'use_custom_view' => true,
+
+    // Custom view path (relative to resources/views)
+    'custom_view' => 'vendor.backpack.base.dashboard',
+
+    // Force the dashboard to be displayed full-width (no sidebar)
+    'force_full' => false,
+],
     // Show "Getting Started with Backpack" info block?
-    'show_getting_started' => env('APP_ENV') == 'local',
+    'show_getting_started' =>false,
 
     // -------------
     // GLOBAL STYLES

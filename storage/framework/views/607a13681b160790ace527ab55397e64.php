@@ -1,0 +1,1 @@
+<?php echo $__env->make(backpack_view('auth.login.' . backpack_theme_config('auth_layout')), \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH C:\rstoresV1R\zenith\resources/views/vendor/backpack/theme-tabler/auth/login.blade.php ENDPATH**/ ?>
